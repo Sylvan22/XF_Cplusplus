@@ -1,0 +1,7 @@
+C:/Users/sylva/Desktop/CoursHES/InformatiqueC2/work/work/src/simplified/xf/include/xf/event.h:44:13:XFEvent::~XFEvent()	0	static
+C:/Users/sylva/Desktop/CoursHES/InformatiqueC2/work/work/src/simplified/xf/include/xf/event.h:65:18:virtual bool XFEvent::deleteAfterConsume() const	0	static
+C:/Users/sylva/Desktop/CoursHES/InformatiqueC2/work/work/src/simplified/xf/include/xf/initialevent.h:16:7:XFInitialEvent::~XFInitialEvent()	0	static
+C:/Users/sylva/Desktop/CoursHES/InformatiqueC2/work/work/src/simplified/xf/include/xf/event.h:44:13:virtual XFEvent::~XFEvent()	8	static
+C:/Users/sylva/Desktop/CoursHES/InformatiqueC2/work/work/src/simplified/xf/include/xf/initialevent.h:16:7:virtual XFInitialEvent::~XFInitialEvent()	8	static
+C:/Users/sylva/Desktop/CoursHES/InformatiqueC2/work/work/src/simplified/xf/core/initialevent.cpp:11:6:virtual bool XFInitialEvent::deleteAfterConsume() const	0	static
+C:/Users/sylva/Desktop/CoursHES/InformatiqueC2/work/work/src/simplified/xf/core/initialevent.cpp:5:1:XFInitialEvent::XFInitialEvent()	0	static

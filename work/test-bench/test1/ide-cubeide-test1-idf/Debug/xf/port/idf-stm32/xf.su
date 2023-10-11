@@ -1,0 +1,3 @@
+C:/Users/sylva/Desktop/CoursHES/InformatiqueC2/work/work/src/simplified/xf/port/idf-stm32/xf.cpp:12:6:void XF_initialize(int)	8	static
+C:/Users/sylva/Desktop/CoursHES/InformatiqueC2/work/work/src/simplified/xf/port/idf-stm32/xf.cpp:17:6:void XF_exec()	8	static
+C:/Users/sylva/Desktop/CoursHES/InformatiqueC2/work/work/src/simplified/xf/port/idf-stm32/xf.cpp:22:6:void XF_execOnce()	8	static

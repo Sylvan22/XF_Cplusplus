@@ -1,0 +1,6 @@
+<map id="TestFactory05" name="TestFactory05">
+<area shape="rect" id="node1" title="Factory creating all objects used in test5." alt="" coords="105,360,230,467"/>
+<area shape="rect" id="node2" href="$class_state_machine05a.html" title=" " alt="" coords="5,132,156,268"/>
+<area shape="rect" id="node3" title=" " alt="" coords="124,5,211,83"/>
+<area shape="rect" id="node4" href="$class_state_machine05b.html" title=" " alt="" coords="180,132,331,268"/>
+</map>

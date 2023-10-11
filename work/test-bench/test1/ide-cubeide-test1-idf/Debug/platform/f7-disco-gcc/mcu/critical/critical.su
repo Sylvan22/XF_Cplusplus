@@ -1,0 +1,3 @@
+C:/Users/sylva/Desktop/CoursHES/InformatiqueC2/work/work/src/platform/f7-disco-gcc/mcu/critical/critical.cpp:7:5:int inISR()	0	static
+C:/Users/sylva/Desktop/CoursHES/InformatiqueC2/work/work/src/platform/f7-disco-gcc/mcu/critical/critical.cpp:14:6:void enterCritical()	8	static,ignoring_inline_asm
+C:/Users/sylva/Desktop/CoursHES/InformatiqueC2/work/work/src/platform/f7-disco-gcc/mcu/critical/critical.cpp:28:6:void exitCritical()	8	static,ignoring_inline_asm

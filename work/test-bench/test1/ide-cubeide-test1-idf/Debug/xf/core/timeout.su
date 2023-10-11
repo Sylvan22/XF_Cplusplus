@@ -1,0 +1,7 @@
+C:/Users/sylva/Desktop/CoursHES/InformatiqueC2/work/work/src/simplified/xf/include/xf/event.h:44:13:XFEvent::~XFEvent()	0	static
+C:/Users/sylva/Desktop/CoursHES/InformatiqueC2/work/work/src/simplified/xf/include/xf/event.h:65:18:virtual bool XFEvent::deleteAfterConsume() const	0	static
+C:/Users/sylva/Desktop/CoursHES/InformatiqueC2/work/work/src/simplified/xf/include/xf/timeout.h:27:7:XFTimeout::~XFTimeout()	0	static
+C:/Users/sylva/Desktop/CoursHES/InformatiqueC2/work/work/src/simplified/xf/include/xf/event.h:44:13:virtual XFEvent::~XFEvent()	8	static
+C:/Users/sylva/Desktop/CoursHES/InformatiqueC2/work/work/src/simplified/xf/include/xf/timeout.h:27:7:virtual XFTimeout::~XFTimeout()	8	static
+C:/Users/sylva/Desktop/CoursHES/InformatiqueC2/work/work/src/simplified/xf/core/timeout.cpp:12:6:virtual bool XFTimeout::deleteAfterConsume() const	0	static
+C:/Users/sylva/Desktop/CoursHES/InformatiqueC2/work/work/src/simplified/xf/core/timeout.cpp:5:1:XFTimeout::XFTimeout(int, int, interface::XFBehavior*)	8	static
