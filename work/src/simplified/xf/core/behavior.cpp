@@ -75,7 +75,7 @@ XFBehavior::TerminateBehavior XFBehavior::process(const XFEvent *pEvent)
     if(status == XFEventStatus::Consumed && pEvent->deleteAfterConsume()){
         delete pEvent;
     }
-    if(status == XFEventStatus::Terminate){
+    if(status == XFEventStatus::Terminate && this->deleteOnTerminate()){
         terminateBehavior = true;
 
     }

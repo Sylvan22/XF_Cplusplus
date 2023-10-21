@@ -1,0 +1,7 @@
+C:/Users/sylva/Desktop/CoursHES/InformatiqueC2/work/work/src/simplified/xf/include/xf/event.h:44:13:XFEvent::~XFEvent()	0	static
+C:/Users/sylva/Desktop/CoursHES/InformatiqueC2/work/work/src/simplified/xf/include/xf/event.h:65:18:virtual bool XFEvent::deleteAfterConsume() const	0	static
+C:/Users/sylva/Desktop/CoursHES/InformatiqueC2/work/work/src/simplified/xf/include/xf/customevent.h:36:10:virtual bool XFCustomEvent::deleteAfterConsume() const	0	static
+C:/Users/sylva/Desktop/CoursHES/InformatiqueC2/work/work/src/simplified/xf/include/xf/customevent.h:21:7:XFCustomEvent::~XFCustomEvent()	0	static
+C:/Users/sylva/Desktop/CoursHES/InformatiqueC2/work/work/src/simplified/xf/include/xf/customevent.h:21:7:virtual XFCustomEvent::~XFCustomEvent()	8	static
+C:/Users/sylva/Desktop/CoursHES/InformatiqueC2/work/work/src/simplified/xf/include/xf/event.h:44:13:virtual XFEvent::~XFEvent()	8	static
+C:/Users/sylva/Desktop/CoursHES/InformatiqueC2/work/work/src/simplified/xf/core/customevent.cpp:5:1:XFCustomEvent::XFCustomEvent(int, interface::XFBehavior*)	4	static

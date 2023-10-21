@@ -12,7 +12,17 @@ interface::XFMutex * interface::XFMutex::create()
 {
     return new ::XFMutex;
 }
-
 // TODO: Implement code for XFMutex class
+void XFMutex::lock() {
+	enterCritical();
+}
+
+void XFMutex::unlock() {
+	exitCritical();
+}
+
+bool XFMutex::tryLock(int32_t timeout) {
+	return true;
+}
 
 #endif // USE_XF_IDF_STM32_MUTEX_CLASS

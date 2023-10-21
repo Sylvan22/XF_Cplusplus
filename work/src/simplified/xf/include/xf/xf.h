@@ -107,7 +107,6 @@ protected:
     static bool isInitialized_;         ///< Changes from false to true after calling method initialize(int). Used to handle multiple calls to init(int).
     static bool isRunning_;             ///< Tells if the XF is initialized and running.
 };
-
 #endif  // __cplusplus
 
 //

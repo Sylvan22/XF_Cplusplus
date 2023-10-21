@@ -14,4 +14,33 @@ bool XFEventQueue::pend()
     return false;
 }
 
+XFEventQueue::XFEventQueue() {
+}
+
+XFEventQueue::~XFEventQueue() {
+}
+
+bool XFEventQueue::empty() const {
+	return this->queue_.empty();
+}
+
+bool XFEventQueue::push(const XFEvent *pEvent, bool fromISR) {
+	if(fromISR){
+		this->mutex_.lock();
+	}
+	this->queue_.push(pEvent);
+	if(fromISR){
+		this->mutex_.unlock();
+	}
+	return true;
+}
+
+const XFEvent* XFEventQueue::front() {
+	return this->queue_.front();
+}
+
+void XFEventQueue::pop() {
+	this->queue_.pop();
+}
+
 #endif // USE_XF_IDF_STM32_EVENT_QUEUE_CLASS

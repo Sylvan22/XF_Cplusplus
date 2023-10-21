@@ -57,8 +57,6 @@ void XFDispatcher::unscheduleTimeout(int timeoutId, interface::XFBehavior *pBeha
 // TODO: pop an event and execute it
 void XFDispatcher::executeOnce()
 {
-
-
     if(!this->events_.empty()){// if there is an event in the queue   
         dispatchEvent(this->events_.front());// dispatch the event
         this->events_.pop();// pop the event
@@ -81,15 +79,11 @@ XFDispatcher::XFDispatcher()
 
 void XFDispatcher::dispatchEvent(const XFEvent *pEvent) const
 {
-   // Trace::out("Execute event: " + std::to_string(pEvent->getId()));
     XFBehavior::TerminateBehavior terminateBehavior;
     terminateBehavior = pEvent->getBehavior()->process(pEvent); // call the process method
 
-   // Trace::out("Event executed");
     if(terminateBehavior){// if we should delete the behavior
         delete (pEvent->getBehavior());
-        if(pEvent->deleteAfterConsume()){
-        delete pEvent;}
     }
 
 }
